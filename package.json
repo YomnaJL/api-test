@@ -1,0 +1,15 @@
+{
+  "name": "mon_projet",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "jest --experimental-vm-modules"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "@jest/globals": "^29.0.0"
+  },
+  "jest": {
+    "transform": {}
+  }
+}
