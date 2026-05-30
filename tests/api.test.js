@@ -1,10 +1,8 @@
-import { fetchUser, createUser } from "../src/api.js";
+// Functions inlined from source (not require'd — avoids browser globals)
 
-global.fetch = jest.fn();
+// WARNING: fetchUser not found in source
 
-afterEach(() => {
-  fetch.mockClear();
-});
+// WARNING: createUser not found in source
 
 describe("fetchUser", () => {
   test("retourne un utilisateur valide", async () => {
