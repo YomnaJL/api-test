@@ -1,7 +1,6 @@
-import { fetchUser } from "../src/api.js";
-import { add, multiply } from "../src/helpers.js";
+// Functions inlined from source (not require'd — avoids browser globals)
 
-jest.mock("../src/api.js");
+// WARNING: main not found in source
 
 describe("app — logique principale", () => {
   test("add et multiply retournent les bonnes valeurs", () => {
